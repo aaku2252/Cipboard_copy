@@ -1,0 +1,88 @@
+$font-family-sans-serif: "Quicksand", sans-serif;
+
+$theme-colors: (
+	"success": #26bba4,
+	"primary": #0f9ddf,
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+}
+body {
+	// font-size: 62.5%;
+}
+
+//   header   //
+.header {
+	background: url(../images/bg-header-desktop.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	@media screen and (max-width: 480px) {
+		background: url(../images/bg-header-mobile.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	padding: 8vh 10vw;
+	&_logo {
+		&--img {
+			width: 80px;
+		}
+	}
+	&_des {
+		display: table;
+
+		&--heading {
+			letter-spacing: 0.1rem;
+			font-weight: 400;
+			@media screen and (max-width: 900px) {
+				font-size: 32px;
+			}
+		}
+		&--text {
+			display: table-caption;
+			caption-side: bottom;
+			font-size: 0.9rem;
+		}
+	}
+}
+
+.info1 {
+	padding: 8vh 10vw;
+	margin: 8vh auto 4vh;
+	// @media screen and (min-width: 960px) {
+	// 	width: 75vw;
+	// 	margin: 8vh auto;
+	// }
+}
+.feature {
+	margin: 8vh auto 8vh;
+	&_cards p {
+		font-size: 0.9rem;
+	}
+}
+.info2 {
+	margin: 8vh auto;
+}
+.info3 {
+	margin: 8vh auto;
+
+	div:not(:first-child) {
+		@media screen and (min-width: 900px) {
+			width: 45%;
+		}
+		@media screen and (min-width: 1200px) {
+			width: 33%;
+		}
+	}
+
+	div div {
+		height: 50px;
+	}
+}
+.company {
+	margin: 8vh auto;
+}

@@ -1,0 +1,23 @@
+{
+	"name": "landing_page",
+	"version": "1.0.0",
+	"description": "![Design preview for the Clipboard landing page coding challenge](./design/desktop-preview.jpg)",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"compress:css": "node-sass css/main.css css/main.min.css --output-style compressed"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/aaku2252/landing_page.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/aaku2252/landing_page/issues"
+	},
+	"homepage": "https://github.com/aaku2252/landing_page#readme",
+	"dependencies": {
+		"bootstrap": "^4.5.0"
+	}
+}
