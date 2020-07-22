@@ -7,7 +7,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/main.min.css">
   <title>Frontend Mentor | Clipboard landing page</title>
 </head>
 
@@ -113,14 +113,57 @@
 
   </div>
 
-  <div class="company d-flex flex-column flex-lg-row  mx-lg-5 px-5 align-items-center">
-    <div class=""><img src="images/logo-google.png" alt="google"></div>
-
-    <img src="images/logo-ibm.png" alt="google">
-    <img src="images/logo-microsoft.png" alt="google">
-    <img src="images/logo-hp.png" alt="google">
-    <img src="images/logo-vector-graphics.png" alt="google">
+  <div class="company d-flex flex-column flex-md-row flex-wrap  mx-lg-5 px-5 align-items-center justify-content-around">
+    <div class="my-4 py-2 mx-auto px-4"><img src="images/logo-google.png" alt="google"></div>
+    <div class="my-4 py-2 mx-auto px-4"><img src="images/logo-ibm.png" alt="google"></div>
+    <div class="my-4 py-2 mx-auto px-4"><img src="images/logo-microsoft.png" alt="google"></div>
+    <div class="my-4 py-2 mx-auto px-4"><img src="images/logo-hp.png" alt="google"></div>
+    <div class="my-4 py-2 mx-auto px-4"><img src="images/logo-vector-graphics.png" alt="google"></div>
   </div>
+
+  <div class="about text-center  mx-lg-5 px-5 ">
+    <div class="header_des mx-auto">
+      <h2 class="h1 header_des--heading font-weight-bold  mb-4 text-muted">Clipboard for iOS and Mac OS</h2>
+      <p class="header_des--text mb-lg-2 text-muted">Available for free on the store App Store. Download for Mac iOS,
+        sync with icloud and you're ready to start adding to your clipboard. </p>
+    </div>
+    <div class="header_btn">
+      <button class="btn px-5 mx-3 rounded-pill my-3 btn-success ">Download for iOS </button>
+      <button class="btn px-5 mx-3 rounded-pill  btn-primary"> Download
+        for
+        Mac</button>
+    </div>
+
+  </div>
+
+  <footer class="footer p-3 pt-4 d-flex flex-column flex-md-row align-items-center justify-content-between  px-5">
+
+    <div class="footer_logo w-25 d-flex">
+      <img src="images/logo.svg" alt="logo" class=" mx-auto footer_logo--img">
+    </div>
+
+    <ol
+      class="footer_nav w-50 d-flex text-md-left text-center flex-column flex-md-row flex-md-wrap   my-5 list-unstyled ">
+      <li class="footer_nav--item  py-2 px-3 mx-md-0 mx-auto ">FAQs</li>
+      <li class="footer_nav--item  py-2 px-3 mx-md-0 mx-auto ">Contact Us</li>
+      <li class="footer_nav--item  py-2 px-3 mx-md-0 mx-auto ">Privacy Policy</li>
+      <li class="footer_nav--item  py-2 px-3 mx-md-0 mx-auto ">Press Kit</li>
+      <li class="footer_nav--item  py-2 px-3 mx-md-0 mx-auto ">Install Guide</li>
+    </ol>
+
+    <ol class="footer_icons  list-unstyled d-flex flex-row justify-content-center align-items-center  my-4">
+      <li class="footer_icons--icon mx-3"><img src="images/icon-facebook.svg" alt="facebook" class="footer_icons--img">
+      </li>
+      <li class="footer_icons--icon mx-3"><img src="images/icon-twitter.svg" alt="twitter" class="footer_icons--img">
+      </li>
+      <li class="footer_icons--icon mx-3"><img src="images/icon-instagram.svg" alt=" instagram"
+          class="footer_icons--img">
+      </li>
+    </ol>
+
+
+
+  </footer>
 
 
 

@@ -10866,6 +10866,8 @@ a.text-dark:hover, a.text-dark:focus {
 *::after {
   padding: 0;
   margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .header {
@@ -10947,4 +10949,26 @@ a.text-dark:hover, a.text-dark:focus {
 
 .company {
   margin: 8vh auto;
+}
+
+.about {
+  margin: 8vh auto;
+}
+
+.footer {
+  margin: 8vh 0 0;
+  background: #e6e6e6;
+}
+
+.footer_logo {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.footer_logo--img {
+  width: 70px;
+}
+
+.footer_nav--item {
+  width: 150px;
 }

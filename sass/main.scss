@@ -11,6 +11,7 @@ $theme-colors: (
 *::after {
 	padding: 0;
 	margin: 0;
+	box-sizing: border-box;
 }
 body {
 	// font-size: 62.5%;
@@ -85,4 +86,31 @@ body {
 }
 .company {
 	margin: 8vh auto;
+}
+.about {
+	margin: 8vh auto;
+}
+.footer {
+	margin: 8vh 0 0;
+	background: rgb(230, 230, 230);
+	&_logo {
+		object-fit: cover;
+		&--img {
+			width: 70px;
+		}
+	}
+
+	&_nav {
+		&--item {
+			width: 150px;
+			// width: 100%;
+
+			// @media screen and (min-width: 768px) {
+			// 	width: 50%;
+			// }
+			// @media screen and (min-width: 1000px) {
+			// 	width: 33.3%;
+			// }
+		}
+	}
 }
